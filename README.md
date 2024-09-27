@@ -20,3 +20,29 @@
 
 https://www.typescriptlang.org/docs/handbook/intro.html
 
+## Inicializar Typescript
+
+<ol>
+   <li>Desde la consola navegamos a la raiz del proyecto</li>
+   <li>Corremos el siguiente comando <code>tsc --init</code></li>
+</ol>
+
+## Compilar archivo ts
+<ol>
+   <li>Desde la consola navegamos a la raiz del proyecto</li>
+   <li>Si ya inicializamos typescript corremos el siguiente comando <code>tsc</code></li>
+   <li>De lo contrario corremos el siguiente comando <code>tsc nombre_archivo.ts</code></li>
+</ol>
+
+## Modo Observador - Watch Mode
+<ol>
+   <li>Desde la consola navegamos a la raiz del proyecto</li>
+   <li>Corremos el siguiente comando <code>tsc -w</code> o <code>tsc --watch</code></li>
+</ol>
+
+## Función anonima autoinvocada
+
+<code> ( ()=>{
+   cuerpo de la función anonima
+} ) () </code>
+
