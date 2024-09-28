@@ -46,3 +46,5 @@ https://www.typescriptlang.org/docs/handbook/intro.html
    cuerpo de la función anonima
 } ) () </code>
 
+Las funciones anonimas ayudan a encapsular el script y no generar conflicto con otras importaciones en las cuales exista una variable con el mismo nombre.
+
