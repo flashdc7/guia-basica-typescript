@@ -9,7 +9,7 @@
         }
     }
 
-    const name= fullName('Tony', true);
+    const name= fullName('Tony', 'true');
     console.log({ name });
     
 
