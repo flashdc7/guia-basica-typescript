@@ -48,3 +48,42 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 
 Las funciones anonimas ayudan a encapsular el script y no generar conflicto con otras importaciones en las cuales exista una variable con el mismo nombre.
 
+## tsconfig.json
+
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+#### Mapear nuestro .ts
+
+<ol>
+   <li>sourceMap con valor true</li>
+   <li>Activando esta opción nos ayuda en la consola del navagador para mapear nuestro archivo .ts en lugar del .js para la depuración</li>
+</ol>
+
+#### Remover comentarios de nuestro .js al transpilar
+
+<ol>
+   <li>removeComments con valor true</li>
+   <li>Activando esta opción eliminamos los comentarios unicamente en el .js al momento de transpilar</li>
+</ol>
+
+#### Excluir carpetas o archivos
+
+<ol>
+   <li>Agregamos de la siguiente linea al final del json</li>
+   <li><code>"exclude": [ "archivo_a_excluir.ts", "carpeta_a_excluir" ]</code></li>
+</ol>
+
+#### Incluir carpetas o archivos
+
+<ol>
+   <li>Agregamos de la siguiente linea al final del json</li>
+   <li><code>"include": [ "archivo_a_incluir.ts", "carpeta_a_incluir" ]</code></li>
+</ol>
+
+#### Dictar archivo de salida
+
+<ol>
+   <li>Primero cambiamos <code>"module": "AMD",</code></li>
+   <li>Después dictamos nuestro archivo de salida en este ej usamos main.js <code>"outFile": "./main.js",</code></li>
+   <li>Si tenemos la opción activada de include debemos mencionar que archivos queremos transpilar de lo contrario tomara todos los archivos que tengamos en nuestro proyecto</li>
+</ol>

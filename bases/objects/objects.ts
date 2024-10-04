@@ -14,7 +14,7 @@
     //     }
     // }
 
-    // console.log(flash);
+    console.log(flash);
     // console.log(flash.getNombre!());
     
 
