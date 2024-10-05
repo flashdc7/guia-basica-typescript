@@ -25,7 +25,7 @@
     }
 
     const avenger: Avenger= new Avenger('antman', 'capitan');
-    console.log(avenger.bio());
-    console.log(Avenger.getAge());
+    // console.log(avenger.bio());
+    // console.log(Avenger.getAge());
     
 }) ()
