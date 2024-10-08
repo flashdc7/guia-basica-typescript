@@ -112,6 +112,6 @@
     "carpeta_a_excluir"
   ],
   "include": [
-    "interfaces"
+    "namespaces"
   ]
 }
