@@ -94,3 +94,10 @@ https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 >3. Si tenemos la opción activada de include debemos mencionar que archivos queremos transpilar de lo contrario tomara todos los archivos que tengamos en nuestro proyecto
 
 
+
+#### Crear un archivo de barril para las importaciones
+
+>1. Creamos un archivo llamado indes.ts
+>2. Importamos aquí todos nuestros archivos que deseamos exportar
+>3. Sustituimos la palabra ***import*** por ***export***
+>4. Ejemplo `export { Hero } from './hero';`
