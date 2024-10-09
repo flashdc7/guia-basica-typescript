@@ -101,3 +101,9 @@ https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 >2. Importamos aquí todos nuestros archivos que deseamos exportar
 >3. Sustituimos la palabra ***import*** por ***export***
 >4. Ejemplo `export { Hero } from './hero';`
+
+
+
+#### Decoradores
+
+https://www.typescriptlang.org/docs/handbook/decorators.html
